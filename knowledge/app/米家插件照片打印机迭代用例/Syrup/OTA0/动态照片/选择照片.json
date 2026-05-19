@@ -1,0 +1,75 @@
+{
+  "name": "米家插件照片打印机迭代用例/Syrup/OTA0/动态照片/选择照片",
+  "platform": "app",
+  "updatedAt": "2026/5/19",
+  "iteration": "2026-W04",
+  "cases": [
+    {
+      "title": "动态照片-首次进入",
+      "precondition": "首次点击动态照片",
+      "steps": "1. 连接打印机 \r\n2. 首次点击动态照片 \r\n3. 按钮功能-左上角返回 \r\n4. 按钮功能-开始制作 \r\n5. 非首次点击动态照片",
+      "expected": "1. 打印机连接成功 \r\n2. 进入动态照片介绍页\r\n介绍信息轮播图（可滑动）\r\n介绍信息内文\r\n按钮：开始制作 \r\n3. 回到插件首页 \r\n4. 进入到相册页面，页面展示所有的动态照片 \r\n5. 页面跳转至相册页面，跳转时页面流畅不卡顿",
+      "importance": "中",
+      "type": "功能测试",
+      "test_type": "手工测试",
+      "maintainer": "",
+      "module": "米家插件照片打印机最新用例/Syrup/动态照片/选择照片"
+    },
+    {
+      "title": "动态照片-相册无照片",
+      "precondition": "相册内无动态照片",
+      "steps": "1. 插件首页点击动态照片",
+      "expected": "1. 进入相册，相册内显示为空",
+      "importance": "中",
+      "type": "功能测试",
+      "test_type": "手工测试",
+      "maintainer": "",
+      "module": "米家插件照片打印机最新用例/Syrup/动态照片/选择照片"
+    },
+    {
+      "title": "动态照片-相册内有照片",
+      "precondition": "",
+      "steps": "1. 插件首页点击动态照片",
+      "expected": "1. 进入相册\r\n相册左上角为“<”按钮\r\n相册内显示照片均为动态照片，且照片按照时间先后进行排序",
+      "importance": "中",
+      "type": "功能测试",
+      "test_type": "手工测试",
+      "maintainer": "",
+      "module": "米家插件照片打印机最新用例/Syrup/动态照片/选择照片"
+    },
+    {
+      "title": "动态照片-相册内点击返回",
+      "precondition": "",
+      "steps": "1. 点击首页【动态照片】功能，在相册选择页面，点击返回",
+      "expected": "1. 返回至插件首页",
+      "importance": "中",
+      "type": "功能测试",
+      "test_type": "手工测试",
+      "maintainer": "",
+      "module": "米家插件照片打印机最新用例/Syrup/动态照片/选择照片"
+    },
+    {
+      "title": "动态照片-未选择照片",
+      "precondition": "",
+      "steps": "1. 点击首页【动态照片】功能，在相册选择页面，不选择照片",
+      "expected": "1. 无法进入下一步",
+      "importance": "中",
+      "type": "功能测试",
+      "test_type": "手工测试",
+      "maintainer": "",
+      "module": "米家插件照片打印机最新用例/Syrup/动态照片/选择照片"
+    },
+    {
+      "title": "动态照片-选择照片加载页面",
+      "precondition": "",
+      "steps": "1. 在照片选择页点击一张动态照片缩略图。\r\n2. 观察加载过渡页的显示与消失。",
+      "expected": "1. \r\n2. 加载过渡页短暂显示“尺寸选择”及“正在处理...”。",
+      "importance": "中",
+      "type": "功能测试",
+      "test_type": "手工测试",
+      "maintainer": "",
+      "module": "米家插件照片打印机最新用例/Syrup/动态照片/选择照片"
+    }
+  ],
+  "history": []
+}
