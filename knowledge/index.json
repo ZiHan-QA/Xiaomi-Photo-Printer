@@ -19,5 +19,12 @@
     "updatedAt": "2026/5/19",
     "iteration": "2026-W04",
     "caseCount": 6
+  },
+  {
+    "name": "米家插件照片打印机最新用例/Syrup/动态照片/尺寸选择",
+    "platform": "app",
+    "updatedAt": "2026/5/19",
+    "iteration": "2026-W04",
+    "caseCount": 8
   }
 ]
