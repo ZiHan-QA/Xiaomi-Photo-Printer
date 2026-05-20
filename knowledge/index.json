@@ -26,5 +26,12 @@
     "updatedAt": "2026/5/20",
     "iteration": "2026-W04",
     "caseCount": 6
+  },
+  {
+    "name": "米家插件照片打印机迭代用例/Syrup/OTA0/动态照片/尺寸选择",
+    "platform": "app",
+    "updatedAt": "2026/5/20",
+    "iteration": "2026-W04",
+    "caseCount": 8
   }
 ]
